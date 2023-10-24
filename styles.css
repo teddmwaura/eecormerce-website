@@ -1,0 +1,1574 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  background: rgb(240, 240, 240);
+  background-size: cover;
+  background-position: center;
+}
+.header{
+  background: #cecdcd;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100px;
+}
+.hero1{
+  margin-left: 6rem;
+  width: 10%;
+}
+.hero1 h1{
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  font-family: Vladimir Script;
+  color: #009688;
+}
+.hero2{
+  margin-right: 2rem;
+  width: 35%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  
+
+}
+.hero2 ul li{
+  text-decoration: none;
+  list-style: none;
+  margin-right: 2.5rem;
+  cursor: pointer;
+  position: relative;
+}
+.hero2 ul li:hover{
+  color: black;
+}
+.hero2 ul li::after{
+  content: "";
+  height: 3px;
+  width: 0;
+  background-color: black;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s;
+}
+.hero2 ul li:hover::after{ 
+  width: 100%;
+  opacity: 1;
+}
+.hero2 ul a{
+  text-decoration: none;
+  color: #009688;
+}
+
+.hero2 ul{
+  display: flex;
+}
+.hero2 img{
+  height: 25px;
+  cursor: pointer;
+}
+body{
+  padding-top: 10vh;
+}
+.div{
+  
+  height: 100vh;
+  width: 100%;
+  background-color: transparent;
+  background: linear-gradient(rgba(0,0,0,0.4), #fff), url(https://previews.123rf.com/images/macniak/macniak1702/macniak170200291/72779416-happy-woman-shopping-for-clothes.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 15%;
+  padding-left: 15%;
+}
+
+.paragraph{
+  color: #333;
+  letter-spacing: 1px;
+  font-family: roboto;
+  margin-bottom: 2rem;
+  font-size: 30px;
+}
+.div h1{
+  letter-spacing: 1px;
+  font-family: roboto;
+  margin-bottom: 1rem;
+  font-size: 80px;
+  
+}
+.div span{
+color: #009688;
+}
+.paragraphs{
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: gray;
+  font-family: roboto;
+  margin-bottom: 1rem;
+}
+.div button{
+  font-size: 18px;
+  letter-spacing: 1px;
+  background-color: bisque;
+  border: none;
+  color: #009688;
+  padding: 12px 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 1.5rem;
+}
+
+.features{
+  background-color: rgb(240, 240, 240);
+  height: auto;
+  width: 100%;
+}
+.weight{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 0.5rem;
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  height: 30vh;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+}
+.log{
+ 
+  height: 10rem;
+  width: 10rem;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0px 5px 5px rgb(158, 156, 156);
+}
+.log button{
+  background: #efefef;
+  color: black;
+  border: 1px solid rgb(240, 240, 240);
+  padding: 4px 10px;
+  cursor: pointer;
+
+}
+.fun{
+  width: 100%;
+  height: auto;
+  background-color: #efefef;
+  margin-top: 2rem;
+}
+.log img{
+  height: 6.5rem;
+  margin-bottom: 10px;
+}
+.log{
+  text-align: center;
+}
+.paragraphz{
+  text-align: center;
+  margin-bottom:  1rem;
+  padding-top: 4rem;
+}
+.paragraphz h1{
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+.paragraphz p{
+  color: gray;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.video{
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 0.5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 5rem;
+}
+.videos{
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 0.5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+}
+.video-stats{
+margin-left: 2rem;
+height: auto;
+border-radius: 10px;
+border: 1px solid #cecdcd;
+}
+.video-static{
+  margin-right: 2rem;
+  height: auto; 
+  margin-left: 2rem;
+  border-radius: 10px;
+  border: 1px solid #cecdcd;
+}
+.linesman h3{
+  color: rgba(255, 170, 13, 0.774);
+  font-size: 30px;
+  margin: 0;
+}
+.linesman h1, h2{
+  font-size: 20px;
+}
+.linesman p{
+  color: gray;
+}
+.linesmans img{
+  height: 13rem;
+  border-radius: 15px;
+  border: none;
+  margin-top: 10px;
+  box-shadow: 0px 10px 10px rgb(158, 156, 156);
+}
+.linesmans{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.linesman{
+  margin-left: 10px;
+  position: relative;
+}
+.quality{
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(135deg, rgba(0,0,0,0.3), #333), url(https://png.pngtree.com/background/20230516/original/pngtree-eyeglasses-on-books-with-paper-in-the-background-picture-image_2614989.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5rem;
+  border-radius: 10px;
+  }
+  .qualities{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.3), #333), url(https://png.pngtree.com/background/20230516/original/pngtree-eyeglasses-on-books-with-paper-in-the-background-picture-image_2614989.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .qualities10{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.3), #333), url(https://moneytoday.co.za/wp-content/uploads/2022/12/Best-online-shopping-sites-1024x674.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .qualities1{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.3), #333), url(https://www.roberthalf.com.au/sites/roberthalf.com.au/files/2023-01/Why%20do%20employees%20stay%20with%20a%20company%20%28blog.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .qualities3{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.3), #333), url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Frau_mit_Einkaufswagen_%2837939692236%29.jpg/1200px-Frau_mit_Einkaufswagen_%2837939692236%29.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  } 
+  .qualities4{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.3), #333), url(https://images.unsplash.com/photo-1583321500900-82807e458f3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c29sdXRpb258ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  } 
+  .quantity{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.3), #333), url(https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJvb2t8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .rowman{
+    text-align: center;
+    padding-top: 4rem;
+  }
+  .rowman span{
+    color: red;
+  }
+  .rowman h1{
+    font-size: 40px;
+    color: white;
+  }
+  .rowman p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: white;
+  }
+  .rowman button{
+   padding: 10px 18px;
+   color: white;
+   background: transparent;
+   border: 1px solid #009688;
+   border-radius: 5px;
+   margin-top: 2rem;
+   transition: 1s;
+  }
+  .rowman button:hover{
+    color: white;
+    background-color: black;
+  }
+  .rowman1{
+    text-align: center;
+    padding-top: 6rem;
+  }
+  
+  .rowman1 h1{
+    font-size: 30px;
+    color: white;
+  }
+  .rowman1 p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: white;
+  }
+  .rowman button{
+   padding: 10px 18px;
+   color: white;
+   background: transparent;
+   border: 1px solid #009688;
+   border-radius: 5px;
+   margin-top: 2rem;
+   transition: 1s;
+  }
+  .rowman button:hover{
+    color: white;
+    background-color: black;
+  }
+.section2{
+  height: auto;
+  width: 100%;
+  background: rgb(240, 240, 240);
+}
+#cotton{
+  height: 60vh;
+  width: 100%;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+}
+.video-row{
+  height: 50vh;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+  padding-left: 1.5rem;
+  padding-top: 4rem;
+  width: 100%;
+  background: url(https://media.istockphoto.com/id/1169378197/photo/stylish-shopaholic-with-purchases.jpg?s=612x612&w=0&k=20&c=RGwdnF0wrWV8NNBawXAbzAHUe8sMBpLsEvIICLR9dM4=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.video-row p{
+font-size: 18px;
+letter-spacing: 1px;
+color: white;
+}
+.video-row h1{
+  color: white;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+.video-row button{
+  padding: 10px 18px;
+  color: white;
+  background: transparent;
+  border: 1px solid #009688;
+  border-radius: 5px;
+  margin-top: 2rem;
+  transition: 1s;
+  cursor: pointer;
+
+}
+.video-row button:hover{
+background-color: #333;
+}
+.video-rows{
+height: 50vh;
+border-radius: 10px;
+box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+padding-left: 1.5rem;
+padding-top: 4rem;
+width: 100%;
+background: linear-gradient(100deg, rgba(0,0,0,0.3), #333), url(https://t3.ftcdn.net/jpg/03/09/03/54/360_F_309035440_KDpfrZKtkQzZHnY6EXXazmKP8fwquRQ4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.video-rows p{
+font-size: 18px;
+letter-spacing: 1px;
+color: white;
+}
+.video-rows h1{
+color: white;
+letter-spacing: 1px;
+font-size: 40px;
+}
+.video-rows button{
+padding: 10px 18px;
+color: white;
+background: transparent;
+border: 1px solid #009688;
+border-radius: 5px;
+margin-top: 2rem;
+transition: 1s;
+cursor: pointer;
+
+}
+.video-rows button:hover{
+background-color: #333;
+}
+#below-footer{
+  height: auto;
+  width: 100%;
+  background-color: #efefef;
+
+}
+.video-footer{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 1rem;
+padding: 3rem;
+}
+.video-below, .video-belows, .video-belown{
+  height: 50vh;
+  background-color: aqua;
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+  transition: 1s;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, rgba(0,0,0,0.5), #fff), url(https://simplyfox.co.uk/wp-content/uploads/2018/08/iStock-640299760.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video-belo{
+  height: 50vh;
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+  transition: 1s;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, rgba(0,0,0,0.5), #fff), url(https://simplyfox.co.uk/wp-content/uploads/2018/08/iStock-640299760.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%
+}
+.video-belo5{
+  height: 50vh;
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+  transition: 1s;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, rgba(0,0,0,0.5), #fff), url(https://www.myglobalviewpoint.com/wp-content/uploads/2020/01/how-to-start-a-travel-blog-in-2020.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%
+}
+.video-belo6{
+  height: 50vh;
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+  transition: 1s;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, rgba(0,0,0,0.5), #fff), url(https://qph.cf2.quoracdn.net/main-qimg-61e4be668342fb545ba0dbf8e8501ea9-lq);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%
+}
+.video-belo7{
+  height: 50vh;
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+  transition: 1s;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, rgba(0,0,0,0.5), #fff), url(https://www.onlinemakeeasy.com/wp-content/uploads/2022/06/istockphoto-922745190-170667a.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%
+}
+.video-belo8{
+  height: 50vh;
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+  transition: 1s;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, rgba(0,0,0,0.5), #fff), url(https://miro.medium.com/v2/resize:fit:800/1*i_V-e9Wmn19jxx1-2wXxeQ.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%
+}
+.video-belo9{
+  height: 50vh;
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+  transition: 1s;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, rgba(0,0,0,0.5), #fff), url(https://claudiahamer.ch/wp-content/uploads/2021/04/Was-ist-ein-Blog.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%
+}
+.video-belo1{
+  height: 60vh;
+  background-color: aqua;
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+  transition: 1s;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, rgba(0,0,0,0.5), #fff);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%
+}
+.video-belo2{
+  height: 60vh;
+  background-color: aqua;
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+  transition: 1s;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, rgba(0,0,0,0.1), #fff), url(https://images.squarespace-cdn.com/content/v1/54ff63f0e4b0bafce6932642/03cc2c1f-09d0-4a1e-83af-c3bb9bc87994/Busy+Areas.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%
+}
+
+.video-below h1{
+  font-size: 40px;
+  margin-bottom: 1rem;
+  color: white;
+}
+.video-below p{
+  color: white;
+}
+.video-belows p{
+  color: white;
+}
+.video-belows h1{
+  font-size: 40px;
+  margin-bottom: 1rem;
+  color: white;
+}
+.video-belows{
+  margin-top: 2rem;
+  width: 100%;
+  height: 50vh;
+  background:  url(https://img.freepik.com/premium-photo/cheerful-boyfriend-surprising-girlfriend-shopping-giving-bags-her-outside_116547-57826.jpg?w=2000);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video-belown{
+  width: 100%;
+  height: 50vh;
+  background:  url(https://joburg.co.za/wp-content/uploads/2020/08/641.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video-belown h1{
+  font-size: 40px;
+  margin-bottom: 1rem;
+  color: white;
+}
+.video-belown p{
+  color: white;
+}
+.video-belown:hover{
+  transform: translateY(1rem); 
+}
+.video-below:hover{
+  transform: translateY(1rem);
+}
+.video-belows:hover{
+  transform: translateY(1rem);
+}
+#video-services{
+  height: auto;
+  width: 100%;
+  padding: 5rem 0 0 3rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, rgba(0,0,0,0.3), #333), url(https://png.pngtree.com/background/20230516/original/pngtree-eyeglasses-on-books-with-paper-in-the-background-picture-image_2614989.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.land{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+}
+.video-land{
+  padding-left: 2rem;
+  text-align: center;
+}
+.video-land p{
+  color: #fff;
+}
+.video-land h1{
+  font-size: 35px;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+.video-land input{
+  padding: 10px 6rem;
+  border-radius: 2px;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  font-size: 18px;
+  outline: 0;
+}
+.video-land button{
+padding: 13px 22px;
+color: white;
+background: transparent;
+border: 1px solid #009688;
+border-radius: 5px;
+transition: 1s;
+cursor: pointer;
+margin: 0;
+vertical-align: top;
+
+}
+#reach-out{
+  height: 40vh;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+  position: relative;
+
+}
+.sidebar span{
+  color: black;
+  font-size: 18px;
+}
+.sidebar h2{
+  color: #333;
+  font-size: 18px;
+}
+.video-view{
+  margin-bottom: 1rem;
+}
+.sidebar h3{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+  letter-spacing: 1px;
+}
+.social-links img{
+  height: 25px;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.social-links{
+  display: flex;
+}
+.sidebar img{
+  height: 25px;
+  vertical-align: top;
+}
+.video-linesman{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  column-gap: 1rem;
+  padding: 3rem 2rem 0 3rem;
+}
+.sidebar button span{
+  color: red;
+  font-size: 14px;
+}
+.apple{
+  margin-right: 1rem;
+}
+.hero3 h1{
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  font-family: Vladimir Script;
+  color: #009688;
+}
+.hero3{
+  width: 10%;
+  position: absolute;
+  top: -2rem;
+  left: 1em;
+}
+.sidebar{
+  margin-bottom: 2rem;
+}
+.sidebar button{
+  border: 1px solid #009688;
+  padding: 10px 1.5rem;
+  background: transparent;
+  font-size: 14px;
+  border-radius: 5px;
+  vertical-align: top;
+  margin: 1rem 5px 1rem 0;
+  cursor: pointer;
+}
+.video-line{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.video-line img{
+  height: 45px;
+  cursor: pointer;
+}
+.video-end{
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+}
+.video-end p{
+  color: gray;
+  font-size: 17px;
+}
+.pagination{
+  height: 20vh;
+  text-align: center;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
+ 
+}
+.pagination button{
+  border: none;
+  padding: 8px 1.5rem;
+  background-color: #009688;
+  font-size: 20px;
+  margin-left: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+}
+.video-status{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+.video-boxing{
+  height: auto;
+  padding: 3rem 1rem 2rem 10rem;
+}
+.video-boxing1{
+  height: auto;
+  padding: 3rem 1rem 2rem 2rem;
+}
+.video-boxings{
+  height: auto;
+  padding: 8rem 1rem 2rem 0;
+}
+.video-boxings1{
+  height: auto;
+  padding: 4rem 1rem 2rem 5rem;
+}
+.video-boxings h1{
+  color: black;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+.video-boxings1 p{
+  color: #cecdcd;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  
+}
+.video-boxings1 h2{
+  color: black;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.video-boxings h1{
+  color: black;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+.video-boxings p{
+  color: #cecdcd;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  font-size: 18px;
+  
+}
+.video-boxings a{
+  text-decoration: none;
+  color: gray;
+  letter-spacing: 1px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.video-boxings a:hover{
+  color: red;
+}
+.video-boxings a span{
+  font-size: 18px;
+
+}
+#video-plural{
+  width: 100%;
+  background: #efefef;
+  height: auto;
+  padding-top: 2rem;
+}
+#video-speed{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #fff, #efefef) ;
+  position: relative;
+}
+.video-about{
+  height: 100vh;
+  margin: 3rem;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-height-paragraph{
+  height: 20vh;
+  position: absolute;
+  top: -5%;
+  left: 35%;
+}
+.video-height-paragraph h1{
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+.contains-video{
+  border: none;
+  background: linear-gradient(200deg, #fff, rgba(0,0,0,0.5));
+  width: 40%;
+  height: 83vh;
+  box-shadow: 0 15px 15px rgba(0,0,0,0.5);
+  border-radius: 15px;
+}
+#video-inputbox{
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  padding: 2rem;
+}
+.video-hash{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #efefef;
+  height: 90vh;
+  width: 100%;
+}
+.video-testimonials-paragraph{
+  padding: 3rem 0 0 6rem ;
+}
+.input-divs{
+  margin-bottom: 20px;
+  width: 80%;
+  height: 12vh;
+  border: 1px solid #efefef;
+}
+.input-divs input{
+  padding: 8px 4rem;
+  border-radius: 2px;
+  color: #009688;
+  background: transparent;
+  border: 1px solid #efefef;
+  font-size: 18px;
+  outline: 0;
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+.input-divs1{
+  margin-bottom: 20px;
+  width: 80%;
+  height: 18vh;
+  border: 1px solid #efefef;
+}
+.input-divs1 textarea{
+  border-radius: 2px;
+  color: black;
+  background: transparent;
+  border: 1px solid #efefef;
+  font-size: 16px;
+  outline: 0;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+.video-testimonials-paragraph button{
+  border: 1px solid #009688;
+  padding: 10px 1.5rem;
+  background: transparent;
+  font-size: 14px;
+  border-radius: 5px;
+  vertical-align: top;
+  margin: 1px 5px 1rem 8rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.video-testimonials-paragraph button:hover{
+  background-color: #009688;
+  color: white;
+}
+.video-testimonials-paragraph p{
+color: gray;
+font-size: 20px;
+letter-spacing: 1px;
+margin-bottom: 1rem;
+margin-left: 4rem;
+}
+.video-profile-pictures{
+  display: grid;
+  grid-template-columns: 100px 2fr;
+  column-gap: 0.5rem;
+}
+#video-inputbox
+{
+  height: auto;
+}
+.video-info-grid{
+  text-align: right;
+  padding-top: 1rem;
+}
+.video-testimonials{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  
+}
+.video-info-grid img{
+height: 100px;
+border-radius: 50px;
+cursor: pointer;
+box-shadow: 5px 10px 10px rgba(0,0,0,0.5);
+}
+.video-big{
+  padding: 1rem 0 0 4rem;
+}
+.video-big h2{
+  letter-spacing: 1px;
+  font-size: 25px;
+  margin-bottom: 1rem;
+  
+}
+.video-big p{
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 0.5;
+  color: gray;
+}
+.cart-image img{
+  height: 22px;
+}
+.cart-image{
+  position: absolute;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+@media screen and (max-width: 770px){
+  body{
+    min-width: 100vw;
+  }
+  .video{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 0.5rem;
+    margin-left: 10px;
+    margin-right: 2rem;
+    margin-top: 2.5rem;
+    row-gap: 1rem;
+  
+  }
+  .qualities10{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.3), #333), url(https://moneytoday.co.za/wp-content/uploads/2022/12/Best-online-shopping-sites-1024x674.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .video-boxing{
+    height: auto;
+    padding: 3rem 1rem 0 4rem;
+  }
+  .videos{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    row-gap: 1rem;
+  }
+  .video-status{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+  }
+  .quality{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.3), #333), url(https://png.pngtree.com/background/20230516/original/pngtree-eyeglasses-on-books-with-paper-in-the-background-picture-image_2614989.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3rem;
+    border-radius: 10px;
+    padding-top: 2rem;
+    }
+    .video-hash{
+      display: grid;
+      grid-template-columns: 1fr;
+      border: 1px solid #efefef;
+      height: 90vh;
+      width: 100%;
+    }
+  .weight{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: auto;
+    padding-left: 2rem;
+  }
+  .div{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.4), #fff), url(https://previews.123rf.com/images/macniak/macniak1702/macniak170200291/72779416-happy-woman-shopping-for-clothes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25%;
+    padding-left: 1.5rem;
+  } 
+  .rowman h1{
+    font-size: 30px;
+    color: white;
+  }
+  .div button{
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: bisque;
+    border: none;
+    color: #009688;
+    padding: 12px 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 4rem;
+  }
+  .div p{
+    font-size: 25px;
+  }
+  .qualities{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.3), #333), url(https://png.pngtree.com/background/20230516/original/pngtree-eyeglasses-on-books-with-paper-in-the-background-picture-image_2614989.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 4rem;
+  }
+  
+  .rowman{
+    text-align: center;
+    padding-top: 2rem;
+  } 
+  .quantity{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.3), #333), url(https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJvb2t8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 4rem;
+    } 
+  .log{
+    height: 7rem;
+    width: 7rem;
+    background-color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding-top: 10px;
+  }
+  .log img{
+    height: 3rem;
+  }
+  .features{
+    background-color: rgb(240, 240, 240);
+    height: auto;
+    width: 100%;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .hero1{
+    margin-left: 0.5rem;
+    width: 11%;
+  }
+  .hero1 h1{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family: Vladimir Script;
+    color: #009688;
+  }
+  .fun{
+    width: 100%;
+    height: auto;
+    background-color: #efefef;
+    margin-top: 2rem;
+  }
+  .header{
+    background: #cecdcd;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex: 1;
+    justify-content: start;
+  }
+  .hero2{
+    width: 35%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    text-align: center;
+    padding-top: 1rem;
+    
+    
+  
+  }
+  .video-boxings{
+    height: auto;
+    padding: 3rem 1rem 1rem 2rem;
+  }
+  .hero2 ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 1rem;
+    cursor: pointer;
+    position: relative;
+    font-size: 10px;
+  
+
+  }
+  .hero2 ul li a{
+    text-decoration: none;
+    color: #009688;
+  }
+  .paragraph{
+    color: #333;
+    letter-spacing: 1px;
+    font-family: roboto;
+    margin-bottom: 2rem;
+    font-size: 20px;
+  }
+  .div h1{
+    letter-spacing: 1px;
+    font-family: roboto;
+    margin-bottom: 1rem;
+    font-size: 50px;
+    
+  }
+  .div button{
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: bisque;
+    border: none;
+    color: #009688;
+    padding: 12px 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .video-stats{
+    margin-left: 2rem;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #cecdcd;
+    width: 80%;
+    margin-bottom: 1.5rem;
+    }
+    .video-static{
+    width: 80%;
+    margin-left: 2rem;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #cecdcd;
+    margin-bottom: 1.5rem;
+    
+    }
+    .video-grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      column-gap: 1rem;
+      padding-left: 2rem;
+      padding-right: 3rem;
+      padding-top: 0.5rem;
+      row-gap: 1.5rem;
+    }
+    #cotton{
+      height: auto;
+      width: 100%;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      margin-bottom: 2rem;
+    }
+    .video-rows button{
+      padding: 10px 18px;
+      color: white;
+      background: transparent;
+      border: 1px solid #009688;
+      border-radius: 5px;
+      margin: 1rem 0 1.5rem 4rem;
+      transition: 1s;
+      cursor: pointer;
+      
+      }
+      .video-rows{
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+        width: 100%;
+        background: linear-gradient(100deg, rgba(0,0,0,0.3), #333), url(https://t3.ftcdn.net/jpg/03/09/03/54/360_F_309035440_KDpfrZKtkQzZHnY6EXXazmKP8fwquRQ4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        }
+        .paragraphz{
+          text-align: center;
+          margin-bottom:  1rem;
+          padding-top: 2rem;
+        }
+        .video-row{
+          height: auto;
+        }
+        .video-row button{
+          margin: 1rem 0 1.5rem 4rem;
+        }
+        .video-footer{
+          display: grid;
+          grid-template-columns: 1fr;
+          column-gap: 1rem;
+          padding: 3rem;
+          row-gap: 1rem;
+          }
+          .land{
+            display: grid;
+            grid-template-columns: 1fr;
+            column-gap: 1rem;
+          }
+          #video-services{
+            height: 55vh;
+            width: 100%;
+            padding: 1rem 0 1rem 0;
+            margin-bottom: 2rem;
+            background: linear-gradient(135deg, rgba(0,0,0,0.3), #333), url(https://png.pngtree.com/background/20230516/original/pngtree-eyeglasses-on-books-with-paper-in-the-background-picture-image_2614989.jpg); 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+            margin-top: 2rem;
+          }
+          .video-land{
+            padding-top: 1.8rem;
+            text-align: start;
+          }
+          .video-land input{
+            padding: 8px 30px;
+            border-radius: 2px;
+            color: #fff;
+            background: transparent;
+            border: 1px solid #fff;
+            font-size: 16px;
+            outline: 0;
+            margin: 0.5rem 0 0.5rem 2rem;
+          }
+          .video-land button{
+            margin-left: 6rem;
+          }
+          .video-land h1{
+            font-size: 25px;
+          }
+        .video-land p{
+          font-size: 16px;
+          width: 300px;
+        }
+        .video-linesman{
+          display: grid;
+          grid-template-columns:  1fr;
+          column-gap: 1rem;
+          padding: 3rem 2rem 0 3rem;
+          margin-bottom: 1rem;
+        }
+        .video-end{
+          padding-bottom: 3rem;
+        }
+        #video-speed{
+          height: auto;
+          width: 100%;
+          background: linear-gradient(135deg, #fff, #efefef) ;
+          position: relative;
+        }
+        .video-height-paragraph{
+          height: 20vh;
+          position: absolute;
+          top: -25%;
+          left: 12%;
+        }
+        .video-about{
+          height: auto;
+          margin: 1rem;
+          margin-top: 8rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 2rem;
+        }
+        .contains-video{
+          border: none;
+          background: linear-gradient(200deg, #fff, rgba(0,0,0,0.5));
+          width: auto;
+          height: auto;
+          box-shadow: 0 15px 15px rgba(0,0,0,0.5);
+          border-radius: 15px;
+          margin: 0 1rem 0 1rem;
+        }
+        .video-status{
+          display: grid;
+          grid-template-columns: 1fr;
+          column-gap: 10px;
+        }
+        
+        .video-boxings1{
+          height: auto;
+          padding: 3rem 1rem 2rem 3rem;
+        }
+        .video-boxing1{
+          height: auto;
+          padding: 2rem 1rem 2rem 1rem;
+        }
+        .video-hash{
+          display: grid;
+          grid-template-columns: 1fr;
+          border: 1px solid #efefef;
+          height: auto;
+          width: 100%;
+        }
+        .video-profile-pictures{
+          display: grid;
+          grid-template-columns: 1fr;
+          row-gap: 0.5rem;
+          margin-top: 4rem;
+        
+        }
+        .video-testimonials-paragraph{
+          padding: 3rem 0 0 1rem ;
+        }
+
+        .input-divs{
+          margin-bottom: 20px;
+          width: 95%;
+          height: 12vh;
+          border: 1px solid #efefef;
+          
+        }
+        .input-divs input{
+          padding: 8px 1.5rem;
+          border-radius: 2px;
+          color: #009688;
+          background: transparent;
+          border: 1px solid #efefef;
+          font-size: 14px;
+          outline: 0;
+          margin-top: 1rem;
+          margin-left: 0.5rem;
+        }
+        .input-divs1{
+          margin-bottom: 20px;
+          width: 95%;
+          height: 18vh;
+          border: 1px solid #efefef;
+        }
+        .input-divs1 textarea{
+          border-radius: 2px;
+          color: black;
+          background: transparent;
+          border: 1px solid #efefef;
+          font-size: 16px;
+          outline: 0;
+          margin-left: 0.5rem;
+          margin-top: 1rem;
+        }
+        .video-testimonials-paragraph button{
+          border: 1px solid #009688;
+          padding: 10px 1.5rem;
+          background: transparent;
+          font-size: 14px;
+          border-radius: 5px;
+          vertical-align: top;
+          margin: 1px 5px 1rem 5rem;
+          cursor: pointer;
+          transition: 0.5s;
+        }
+        .video-testimonials-paragraph button:hover{
+          background-color: #009688;
+          color: white;
+        }
+        .video-testimonials-paragraph p{
+        color: gray;
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        }
+        .video-testimonials{
+          display: grid;
+          grid-template-rows: 1fr;
+          
+        }
+        .video-info-grid{
+          text-align: center;
+          padding-top: 1rem;
+        }
+        .video-belo5{
+          height: 50vh;
+          border-radius: 15px;
+          width: 100%;
+          box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+          transition: 1s;
+          padding-top: 5rem;
+          padding-left: 1rem;
+          cursor: pointer;
+          background: linear-gradient(135deg, rgba(0,0,0,0.5), #fff), url(https://www.myglobalviewpoint.com/wp-content/uploads/2020/01/how-to-start-a-travel-blog-in-2020.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 80%
+        }
+        .video-belo6{
+          height: 50vh;
+          border-radius: 15px;
+          width: 100%;
+          box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+          transition: 1s;
+          padding-top: 5rem;
+          padding-left: 1rem;
+          cursor: pointer;
+          background: linear-gradient(135deg, rgba(0,0,0,0.5), #fff), url(https://qph.cf2.quoracdn.net/main-qimg-61e4be668342fb545ba0dbf8e8501ea9-lq);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 80%
+        }
+
+}
